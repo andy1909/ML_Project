@@ -21,5 +21,5 @@ COPY . .
 # Mở cổng 5000 cho Flask
 EXPOSE 5000
 
-# Lệnh chạy ứng dụng
-CMD ["python3", "app.py"]
+# Lệnh chạy ứng dụng sử dụng Gunicorn cho Production
+CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 app:app
