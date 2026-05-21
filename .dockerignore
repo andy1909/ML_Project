@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+notebook/
+artifacts/*.csv
+catboost_info/
+logs/
+.ebextensions/
+README.md
+Dockerfile
+.dockerignore
