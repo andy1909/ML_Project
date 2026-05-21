@@ -1,0 +1,89 @@
+/* Home page (Prediction) specific styles */
+.prediction-container {
+    padding: 50px 0;
+    min-height: 100vh;
+}
+
+.card {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.btn-predict {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 20px;
+}
+
+.btn-predict:hover {
+    background-color: #357abd;
+}
+
+.result-section {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background: #e7f3ff;
+    border-radius: 10px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.result-section h2 {
+    color: var(--primary-color);
+}
+
+.nav-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
